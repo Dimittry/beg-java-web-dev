@@ -15,8 +15,8 @@
       var = "myDS"                                           
       driver = "org.postgresql.Driver"
       url = "jdbc:postgresql://localhost:5432/skistuff"
-      user = "olyver" 
-      password = "SAMBADA1902"
+      user = "" 
+      password = ""
     />
     <sql:query var = "listStuff" dataSource = "${myDS}"> 
       SELECT * FROM skisEtc ORDER BY id;
