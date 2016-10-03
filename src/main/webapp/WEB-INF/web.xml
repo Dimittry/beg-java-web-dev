@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>regChecker</servlet-name>
+		<servlet-class>ru.begjavaweb.checker.RegistrationChecker</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+			<servlet-name>regChecker</servlet-name>
+			<url-pattern>/checkRegistration</url-pattern>
+	</servlet-mapping>
+
+	<display-name>Register</display-name>
+	<welcome-file-list>
+		<welcome-file>tagsDemo.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
